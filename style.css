@@ -114,7 +114,7 @@ img {
     position: absolute;
     top: 485px;  
     left: -40px;  
-    z-index: 1;
+    z-index: 0;
     width: 115px;
     height: 115px; 
 }
@@ -139,12 +139,13 @@ img {
     font-size: 0.9rem;
     padding: 10px 17px;
     font-weight: bold;
+    z-index: 2;
 }
 
 .captionnn { 
     position: absolute; 
     bottom: 245px; 
-    left: 248px; 
+    left: 420px; 
     background: #004F44; 
     color: #fff; 
     font-size: 0.9rem;
@@ -155,7 +156,7 @@ img {
 .captionnnn { 
     position: absolute; 
     bottom: -200px; 
-    left: 248px; 
+    left: 420px; 
     color: #fff; 
     font-size: 2rem;
     font-weight: bold;
@@ -164,7 +165,7 @@ img {
 .captionnnnn { 
     position: absolute; 
     bottom: -270px; 
-    left: 248px; 
+    left: 420px; 
     background: white; 
     color: #004F44; 
     font-size: 0.9rem;
@@ -205,4 +206,8 @@ img {
      .cards-layout {
         gap: 4px;
      }
+}
+
+.card.small {
+  z-index: 1;
 }
